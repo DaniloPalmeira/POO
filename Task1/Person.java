@@ -1,8 +1,14 @@
 public class Person {
 
-    public String name = "Indigente"; // Person's name
-    public int age = 0; // Person's age
-    public double height = 0; // Person's height
+    public String name; // Person's name
+    public int age; // Person's age
+    public double height; // Person's height
+
+    public Person() {
+        name = "Indigente";
+        age = 0;
+        height = 0;
+    }
 
     public void setDwarfHeight() {
         height = 1.47;

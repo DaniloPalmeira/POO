@@ -1,5 +1,9 @@
 public class Switch {
-    private Boolean state = false;
+    private Boolean state;
+
+    public Switch() {
+        state = false;
+    }
 
     public Boolean getState() {
         return state;
